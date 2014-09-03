@@ -63,10 +63,17 @@ body {
     margin-top: 28px;
 }
 
+.logo
+{
+  background: url('../images/header-light-repeat.png');
+  height: 410px;
+  /*width: 978px;*/
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 730px;
+        max-width: 978px;
     }
 
     /* Remove the padding we set earlier */
@@ -81,9 +88,19 @@ body {
     .header {
         margin-bottom: 30px;
     }
-    
+
     /* Remove the bottom border on the jumbotron for visual effect */
     .jumbotron {
         border-bottom: 0;
     }
+}
+.portrait
+{
+    /*position: relative;*/
+    /*right: 0;*/
+    /*top: 0;*/
+    float: right;
+    background: url('../images/portrait.png');
+    height: 410px;
+    width: 563px;
 }
