@@ -1,6 +1,0 @@
-{
-    "directory": "app/static/vendor/bower/",
-    "proxy":"http://seproxy.hm.com:8080/",
-    "https-proxy":"https://seproxy.hm.com:8080/",
-    "strict-ssl": "false"
-}
