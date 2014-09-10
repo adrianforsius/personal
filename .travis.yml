@@ -9,7 +9,7 @@ python:
   - "pypy"
 # command to install dependencies
 install:
-  - pip install -r --allow-all-external requirements.txt
+  - pip install -r requirements.txt --allow-all-external
   - pip -log errors.log
 notifications:
   email: false
