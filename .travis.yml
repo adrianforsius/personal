@@ -10,5 +10,6 @@ python:
 # command to install dependencies
 install:
   - pip install -r requirements.txt --allow-all-external
+script: true
 notifications:
   email: false
